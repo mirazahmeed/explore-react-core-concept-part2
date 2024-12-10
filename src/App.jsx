@@ -3,6 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Counter from "./Counter";
+import Team from "./Team";
+import Friends from "./Friends";
+import Users from "./users";
 
 function App() {
     function handleClick() {
@@ -40,6 +43,9 @@ function App() {
             </button>
             <button onClick={() => addFive(5)}>Add Five</button>
             <Counter></Counter>
+            <Team></Team>
+            <Users></Users>
+            <Friends></Friends>
         </>
     );
 }
